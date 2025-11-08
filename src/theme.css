@@ -1,0 +1,123 @@
+/* 主题文件，所有的主题颜色都应该定义在这个文件里 */
+
+:root {
+  --xz-white: #fff;
+  --xz-white-op: rgba(255, 255, 255, 0.15);
+  --xz-black: #000;
+  --xz-black-op: rgba(0, 0, 0, 0.15);
+  --xz-body-bg: #eff4f9;
+  --xz-none: #00000000;
+  --xz-gray: #999999;
+  --xz-gray-op: #9999992b;
+  --xz-vip: #e5a80d;
+  --xz-main: var(--xz-theme);
+  --xz-main-op: var(--xz-theme-op);
+  --xz-main-op-deep: var(--xz-theme-op-deep);
+  --xz-main-op-light: var(--xz-theme-op-light);
+  --xz-main-none: var(--xz-theme-none);
+  --xz-main-radius: 8px;
+  --xz-shadow-theme: 0 8px 12px -3px var(--xz-theme-op);
+  --xz-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+  --xz-shadow-main: 0 8px 12px -3px var(--xz-main-op);
+  --xz-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --xz-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --xz-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --xz-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --xz-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --xz-shadow-green: 0 8px 12px -3px #87ee7936;
+  --xz-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
+  --xz-snackbar-time: 5s;
+  --xz-header-height: 56px;
+  --xz-navigation-width: 160px;
+}
+
+[data-theme='light'] {
+  --xz-theme: #425aef;
+  --xz-theme-op: #4259ef23;
+  --xz-theme-op-deep: #4259efdd;
+  --xz-theme-op-light: #4259ef0d;
+  --xz-theme-none: #4259ef01;
+  --xz-blue: #425aef;
+  --xz-red: #d80020;
+  --xz-pink: #ff7c7c;
+  --xz-green: #57bd6a;
+  --xz-yellow: #936900;
+  --xz-yellow-op: #d99c001a;
+  --xz-orange: #e38100;
+  --xz-purple: #7a60d2;
+  --xz-fontcolor: #363636;
+  /* --xz-background: #f7f9fe; */
+  /* --xz-background: #eff4f9; */
+  --xz-background: rgb(247, 249, 254);
+  --xz-reverse: #000;
+  --xz-maskbg: rgba(255, 255, 255, 0.6);
+  --xz-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --xz-hovertext: var(--xz-main);
+  --xz-ahoverbg: #f7f7fa;
+  --xz-lighttext: var(--xz-main);
+  --xz-secondtext: rgba(60, 60, 67, 0.8);
+  --xz-scrollbar: rgba(60, 60, 67, 0.4);
+  --xz-card-btn-bg: #edf0f7;
+  --xz-post-blockquote-bg: #fafcff;
+  --xz-post-tabs-bg: #f2f5f8;
+  --xz-secondbg: #f7f7f9;
+  --xz-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --xz-card-bg: #fff;
+  --xz-card-bg-op: var(--xz-black-op);
+  --xz-card-bg-none: rgba(255, 255, 255, 0);
+  --xz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --xz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --xz-card-border: #e3e8f7;
+  --xz-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --style-border: 1px solid var(--xz-card-border);
+  --style-border-always: 1px solid var(--xz-card-border);
+  --style-border-hover: 1px solid var(--xz-main);
+  --style-border-hover-always: 1px solid var(--xz-main);
+  --style-border-dashed: 1px dashed var(--xz-theme-op);
+  --style-border-forever: 2px solid var(--xz-main);
+}
+
+[data-theme='dark'] {
+  --xz-theme: #ffc848;
+  --xz-theme-op: #f2b94b23;
+  --xz-theme-op-deep: #f2b94bdd;
+  --xz-theme-none: #f2b94b00;
+  --xz-blue: #0084ff;
+  --xz-red: #ff3842;
+  --xz-pink: #d44040;
+  --xz-green: #3e9f50;
+  --xz-purple: #7a60d2;
+  --xz-yellow: #ffc93e;
+  --xz-yellow-op: #ffc93e30;
+  --xz-orange: #ff953e;
+  --xz-fontcolor: #f7f7fa;
+  --xz-background: #18171d;
+  --xz-reverse: #fff;
+  --xz-maskbg: rgba(0, 0, 0, 0.6);
+  --xz-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --xz-hovertext: #0a84ff;
+  --xz-ahoverbg: #fff;
+  --xz-lighttext: var(--xz-theme);
+  --xz-secondtext: #a1a2b8;
+  --xz-scrollbar: rgba(200, 200, 223, 0.4);
+  --xz-card-btn-bg: #30343f;
+  --xz-post-blockquote-bg: #000;
+  --xz-post-tabs-bg: #121212;
+  /* --xz-secondbg: #21232a; */
+  --xz-secondbg: rgb(40, 43, 50);
+  --xz-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  /* --xz-card-bg: #1b1c20; */
+  --xz-card-bg: rgb(24, 26, 31);
+  --xz-card-bg-op: var(--xz-white-op);
+  --xz-card-bg-none: #1d1b2600;
+  --xz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --xz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --xz-card-border: #3d3d3f;
+  --xz-shadow-border: 0 8px 16px -4px #00000050;
+  --style-border: 1px solid var(--xz-card-border);
+  --style-border-always: 1px solid var(--xz-card-border);
+  --style-border-hover: 1px solid var(--xz-lighttext);
+  --style-border-hover-always: 1px solid var(--xz-lighttext);
+  --style-border-dashed: 1px dashed var(--xz-theme-op);
+  --style-border-forever: 2px solid var(--xz-lighttext);
+}
